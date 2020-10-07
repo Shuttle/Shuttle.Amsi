@@ -13,14 +13,14 @@ The `applicationName` argument is optional and a `Guid` will be assigned as the 
 ## Methods
 
 ```c#
-public bool AmsiContext.IsAvailable()
+public bool AmsiContext.IsAvailable();
 ```
 
-Returns `true` if an AMSI provider has been registered; else `false`.  This is achieve by scanning the standard EICAR test string.
+Returns `true` if an AMSI provider has been registered; else `false`.  This is achieved by scanning the standard EICAR test string.
 
 ```c#
-public bool HasMalware(Stream stream, string contentName)
-public bool HasMalware(byte[] bytearray, string contentName)
+public bool HasMalware(Stream stream, string contentName);
+public bool HasMalware(byte[] bytearray, string contentName);
 ```
 
-Returns `true` if the `stream` or `bytearray` contains malware; else `false`;
+Returns `true` if the `stream` or `bytearray` contains malware; else `false`.

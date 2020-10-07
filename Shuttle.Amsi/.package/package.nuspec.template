@@ -12,7 +12,7 @@
 		<repository type="git" url="https://github.com/Shuttle/Shuttle.Amsi.git" />
 		<description>Integrates with the Windows (10, 2016+) anti-malware scan interface that uses the registered provider to scan content for malware.</description>
 		<copyright>Copyright (c) #{Year}#, Eben Roux</copyright>
-		<tags></tags>
+		<tags>amsi malware virus</tags>
 		<dependencies>
 #{Dependencies}#
 		</dependencies>
