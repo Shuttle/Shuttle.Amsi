@@ -36,7 +36,7 @@ namespace Shuttle.Amsi
         private const int AMSI_RESULT_BLOCKED_BY_ADMIN_END = 20479;
         private const int AMSI_RESULT_DETECTED = 32768;
 
-        private const string EicarTestString = @"X5O!P%@AP[4\PZX54(P^)7CC)7}$EICAR-STANDARD-ANTIVIRUS-TEST-FILE!$H+H*";
+        private const string EicarTestString = @"X5O!P%@AP[4\PZX54(P^)7CC)7}" + @"$EICAR-STANDARD-ANTIVIRUS-TEST-FILE!$H+H*";
 
         private readonly IntPtr _context = IntPtr.Zero;
 
